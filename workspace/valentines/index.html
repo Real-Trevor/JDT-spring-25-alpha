@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentines</title>
+    <link rel="stylesheet" href="./styles.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.birds.min.js"></script>
+</head>
+<body>
+    <div class = "card"> 
+        <div id="birds"></div>
+        <h1>Dear Biden</h1>
+        <img id="joe", src="https://th-thumbnailer.cdn-si-edu.com/bgmkh2ypz03IkiRR50I-UMaqUQc=/1000x750/filters:no_upscale():focal(1061x707:1062x708)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/55/95/55958815-3a8a-4032-ac7a-ff8c8ec8898a/gettyimages-1067956982.jpg"  />
+        <p>Will you be my valentine?</p>
+        <p><span>Love</span>, <br>Donald</p>
+        <div class="button-wrapper">
+            <button id ="yes">Yes</button>
+            <button id ="no">No</button>
+        </div>
+    </div>
+    
+</body>
+<script>
+    VANTA.BIRDS({
+   el: "#birds",
+   mouseControls: true,
+   touchControls: true,
+   gyroControls: false,
+   minHeight: 900.00,
+   minWidth: 200.00,
+   scale: 1.00,
+   scaleMobile: 1.00,
+   quantity: 4.00,
+   backgroundAlpha: 0.00,
+   birdSize: 1.00,
+   wingSpan: 10.00,
+   speedLimit: 2.00,
+   separation: 100.00,
+   alignment: 1.00,
+   cohesion: 1.00,
+   color1: 0xff58dc,
+   color2: 0xa75e5e,
+   })
+</script>
+
+<script src="script.js"></script>
+
+</html>
